@@ -2,6 +2,8 @@ Python3学习Demo
 
 IDE：Pycharm 2017
 
+[总结文章 https://github.com/liuguoquan727/notes/blob/master/python/python.md](https://github.com/liuguoquan727/notes/blob/master/python/python.md)
+
 # 目录
 
 ## tutorial

@@ -80,7 +80,7 @@ print(s1 == s2)  # 是否相等
 print(s1.issubset(s2))  # s1是否是s2子集
 
 
-print(s1.issuperset(s2))  #  s1是否是s2超集
+print(s1.issuperset(s2))  # s1是否是s2超集
 
 
 print(s1.union(s2))  # a b 的并集

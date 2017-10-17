@@ -18,7 +18,7 @@ t = (123, "abc", ["Java", "Python"])
 print(t)
 print(type(t))
 
-t = (3)  #  int类型
+t = 3  # int类型
 print(type(3))
 t = (3, )  # 加逗号表示元组类型
 print(type(t))

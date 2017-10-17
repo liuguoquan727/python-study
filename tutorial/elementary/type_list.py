@@ -15,10 +15,8 @@ a = []
 print(type(a))  # <class 'list'>
 print(a)
 
-
 a = [1, 2, 3, "a", "b"]  # 数组里可以有多种数据类型
 print(a)
-
 
 """
 索引
@@ -52,7 +50,7 @@ print(len(lst))  # 长度
 
 alst = ["C", "JavaScript"]
 
-print(lst + alst)   # 序列相加
+print(lst + alst)  # 序列相加
 
 print(lst * 3)  # 重复n次序列
 
@@ -64,15 +62,12 @@ print(min(lst))
 
 print(operator.eq(lst, alst))  # 比较
 
-
 """
 list的方法
 """
 
 lst = ["Java", "Python", "Go", "C++"]
-
 lst.append("C#")  # 追加元素
-
 print(lst)
 
 lst = ["Java", "Python", "Go", "C++"]
@@ -94,7 +89,7 @@ print(lst)
 print(lst.pop(0))  # 删除指定位置的元素并返回
 
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-a.reverse() # 列表的元素顺序反过来
+a.reverse()  # 列表的元素顺序反过来
 print(a)
 
 a = [1, 9, 7, 4, 6, 3, 8]

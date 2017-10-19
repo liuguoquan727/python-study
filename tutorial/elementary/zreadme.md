@@ -1,5 +1,6 @@
 # 文件目录
 
+* function 函数
 * deep_copy 深拷贝和浅拷贝
 * flow_control 流程控制
 * type_dict 字典类型

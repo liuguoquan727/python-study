@@ -156,6 +156,25 @@ print(s.replace("l", "J"))
 
 """
 
+索引和切片
+
+"""
+
+# 索引
+s = "hello, python!"
+print(s[0])
+print("hello"[0])
+
+# 切片
+s = "hello, python!"
+print(s[0:2])  # 从0~2位置的字符串
+print(s[0:])  # 0 ~ 结尾
+print(s[:9])  # 开始~位置9
+print(s[:])  # 完整字符串
+
+
+"""
+
 格式化字符串
 
 - %s 字符串（采用str()的显示）
@@ -182,21 +201,3 @@ print("I like {}, {} years old!".format("you", 20))
 # 字典格式化
 
 print("I like %(name)s, %(age)d years old!" % {"name": "you", "age": 20})
-
-"""
-
-索引和切片
-
-"""
-
-# 索引
-s = "hello, python!"
-print(s[0])
-print("hello"[0])
-
-# 切片
-s = "hello, python!"
-print(s[0:2])  # 从0~2位置的字符串
-print(s[0:])  # 0 ~ 结尾
-print(s[:9])  # 开始~位置9
-print(s[:])  # 完整字符串

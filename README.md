@@ -17,6 +17,9 @@ IDE：Pycharm 2017
 * [Python之旅](https://funhacks.net/explore-python/)
 * [Python之旅](https://github.com/ethan-funny/explore-python)
 * [Python全栈之路系列文章](https://blog.ansheng.me/article/python-full-stack-way)
+* [Python常用库整理](https://zhuanlan.zhihu.com/p/21563130)
+* [Python设计模式](https://github.com/faif/python-patterns)
+* [廖雪峰](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 
 ## 爬虫系列
 

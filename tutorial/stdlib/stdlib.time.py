@@ -25,3 +25,7 @@ time.strptime(“2016-01-28”,”%Y-%m-%d”)	将字符串格式转换成struct
 print(time.time())
 print(time.ctime())
 print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
+
+print(time.gmtime())
+print("1232")
+print("123")

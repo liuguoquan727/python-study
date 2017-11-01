@@ -29,3 +29,10 @@ IDE：Pycharm 2017
 * [爬虫入门系列（四）：HTML文本解析库BeautifulSoup](https://mp.weixin.qq.com/s?__biz=MjM5MzgyODQxMQ==&mid=2650366919&idx=1&sn=1b36a9f2c0921cdeac52942ec591a923&chksm=be9cd89389eb5185d32ab5e9034c2e68ddff6c2f8ddeaee1662499d73baf113fd5ec645548f8&scene=21#wechat_redirect)
 * [爬虫入门系列（五）：正则表达式完全指南（上）](https://mp.weixin.qq.com/s?__biz=MjM5MzgyODQxMQ==&mid=2650366958&idx=1&sn=044008c9475421feddf428c6ce5bf481&chksm=be9cd8ba89eb51acd8404bda5c2f5db660bf730919664d811a3487ae6b4e49760df67bd5736a&scene=21#wechat_redirect)
 * [爬虫入门系列（六）：正则表达式完全指南（下）](https://mp.weixin.qq.com/s?__biz=MjM5MzgyODQxMQ==&mid=2650366967&idx=2&sn=a5756059ba031e5c1407587987dbd3ba&chksm=be9cd8a389eb51b5d597c182cf2e6e361408832ea749cde8dad2b7892c978c6aa303286e60dc&scene=21#wechat_redirect)
+
+## 第三方库
+
+* sudo pip3 install requests
+* sudo pip3 install beautifulsoup4
+* sudo pip3 install pillow
+

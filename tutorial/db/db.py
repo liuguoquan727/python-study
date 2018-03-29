@@ -19,6 +19,7 @@ cursor.execute("select * from student")
 
 values = cursor.fetchall()
 
+print("111")
 print(values)
 
 conn.close()

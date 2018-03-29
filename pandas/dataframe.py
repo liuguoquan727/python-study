@@ -14,8 +14,8 @@ import pandas as pd
 
 # 1. 通过二位数组创建数据框
 
-arr = np.arange(10).reshape(2, 5)
-pd0 = pd.DataFrame(arr)
+arr = np.arange(10).reshape(5, 2)
+pd0 = pd.DataFrame(arr, columns=["V1", "V2"])
 print(pd0)
 
 # 2. 通过字典的方式创建数据框
@@ -42,3 +42,7 @@ print(pd3)
 # 选择数据框中的某一列，返回一个序列的对象
 pd4 = pd2['one']
 print(pd4)
+
+print(pd2.shape)
+print(pd2.columns)
+print(pd2.describe())

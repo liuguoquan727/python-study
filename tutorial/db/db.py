@@ -19,7 +19,7 @@ cursor.execute("select * from student")
 
 values = cursor.fetchall()
 
-print("111")
+print("package_stock")
 print(values)
 
 conn.close()

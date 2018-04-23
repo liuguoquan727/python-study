@@ -1,0 +1,52 @@
+[
+  {
+    "name": "goke",
+    "chn": "国科微",
+    "gid": "sz300672"
+  },
+  {
+    "name": "media",
+    "chn": "美的集团",
+    "gid": "sz000333"
+  },
+  {
+    "name": "huichuang",
+    "chn": "汇川技术",
+    "gid": "sz300124"
+  },
+  {
+    "name": "wanke",
+    "chn": "万科A",
+    "gid": "sz000002"
+  },
+  {
+    "name": "xunfei",
+    "chn": "科大讯飞",
+    "gid": "sz000333"
+  },
+  {
+    "name": "haikang",
+    "chn": "海康威视",
+    "gid": "sz002415"
+  },
+  {
+    "name": "gree",
+    "chn": "格力电器",
+    "gid": "sz000651"
+  },
+  {
+    "name": "dazu",
+    "chn": "大族激光",
+    "gid": "sz002008"
+  },
+  {
+    "name": "haitian",
+    "chn": "海天味业",
+    "gid": "sh603288"
+  },
+  {
+    "name": "360",
+    "chn": "360",
+    "gid": "sh601360"
+  }
+]

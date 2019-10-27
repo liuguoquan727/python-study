@@ -12,7 +12,18 @@
 """
 
 import os
+import sys
 import operator
+
+argv = sys.argv
+
+dirName = ""
+
+if len(argv) > 1:
+    # 文件夹名称
+    dirName = argv[1]
+    # 命令行输入版本号
+    print(dirName)
 
 # 获取当前目录下的文件
 apk = os.listdir(os.getcwd())
@@ -22,16 +33,16 @@ for dir1 in apk:
     if os.path.isdir(dir1) & operator.eq(dir1, "apk"):
         print(dir1)
         for dir2 in os.listdir(os.getcwd() + "/" + dir1):
-            if os.path.isdir(os.getcwd() + "/" + dir1):
+            if os.path.isdir(os.getcwd() + "/" + dir1 + "/" + dir2):
                 print(dir2)
                 for dir3 in os.listdir(os.getcwd() + "/" + dir1 + "/" + dir2):
-                    if os.path.isdir(os.getcwd() + "/" + dir1 + "/" + dir2):
+                    if os.path.isdir(os.getcwd() + "/" + dir1 + "/" + dir2 + "/" + dir3):
                         print(dir3)
                         for dir4 in os.listdir(os.getcwd() + "/" + dir1 + "/" + dir2 + "/" + dir3):
                             file = os.getcwd() + "/" + dir1 + "/" + dir2 + "/" + dir3 + "/" + dir4
                             if file.endswith(".apk"):
                                 print("file path:" + file)
-                                command = "cp " + file + " /Users/liuguoquan/Desktop/apk/release"
+                                command = "cp " + file + " /Users/liuguoquan/Desktop/apk/" + dirName
                                 print(command)
                                 os.system(command)
 
